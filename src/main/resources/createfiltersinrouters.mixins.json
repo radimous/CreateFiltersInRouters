@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.radimous.createfiltersinrouters.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "CreateFiltersInRouters.refmap.json",
+  "mixins": [
+    "MixinBulkItemMatcher",
+    "MixinSimpleItemMatcher"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
